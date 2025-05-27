@@ -22,6 +22,12 @@ public class Account {
 		this.accountType = accountType;
 		this.accountBalance = accountBalance;
 	}
+	public Account(int accountNumber, String accountName, double accountBalance) {
+		super();
+		this.accountNumber = accountNumber;
+		this.accountName = accountName;
+		this.accountBalance = accountBalance;
+	}
 
 	public Account() {
 		super();
