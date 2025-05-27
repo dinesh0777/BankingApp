@@ -27,4 +27,9 @@ public class AccountService {
 		return account;
 	}
 
+	public Account createSavingAcc() {
+		Account acc=new Account(1010101010,"Dinesh",50000.0);
+		return acc;
+	}
+
 }

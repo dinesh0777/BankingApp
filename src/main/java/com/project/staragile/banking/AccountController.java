@@ -26,7 +26,10 @@ public class AccountController {
 		return "Hello from CBS Bank";
 	}
 	
-	
+	@GetMapping("/CreateSavingAcc")
+	public Account createSavingAcc() {
+		return accountService.createSavingAcc();
+	}
 	@GetMapping("/createAccount")
 	public Account createAccount(){
 		return accountService.createAccount();
